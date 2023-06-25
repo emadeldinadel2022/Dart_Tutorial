@@ -5,10 +5,10 @@ late String name;//contract that you gonna initialize it later, when you use it
     .allow multiple assignments, keep reading or writing from it
     .you arenot allowed to re-establish the value or reassign new value to late variable have been already resolved with final kewyword
     .can have normal late variable that depends on another late final variable
-    .don't write code tries to understand whether a late variable has as vlue or not if you're after than need to use optionals
+    .don't write code tries to understand whether a late variable has as value or not if you're after than need to use optionals
     .assign late variable to a non late variable, resolve it immediately
     .final varialbes resolve late variables if it assign to the late variable result value
-    .late instance variables should be initialized in the constructor, otherwise they won't be lazy
+    .late instance variables should not be initialized in the constructor, otherwise they won't be lazy
     .if you assigned late varibales in constructor, to be resolved immediately, unfortunately that's is bad thing
 */
 void main(List<String> args) {
