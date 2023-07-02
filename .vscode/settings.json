@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "canonicalized",
+        "khadija",
+        "multiper",
+        "sublist"
+    ],
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "dart.flutterGenerateLocalizationsOnSave": "never",
+    "dart.flutterHotReloadOnSave": "all",
+    "dart.hotReloadOnSave": "all"
+}
