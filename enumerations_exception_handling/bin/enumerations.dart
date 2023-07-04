@@ -146,7 +146,7 @@ void main(List<String> args) {
 
   //implementing comparable with enums
   print("====================================");
-  print([...TeslaCars.values]..sort());//sort is void function, create copy of the array, invoke sort then  
+  print([...TeslaCars.values]..sort());//sort is void function, create copy of the array(...), invoke sort then return the value (..) 
 
 
 }
